@@ -1,0 +1,11 @@
+["protostar.config"]
+protostar_version = "0.5.0"
+
+["protostar.project"]
+libs_path = "lib"
+
+["protostar.contracts"]
+sha256 = [
+    "src/packed_sha256.cairo",
+    "src/sha256.cairo",
+]

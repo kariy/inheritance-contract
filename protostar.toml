@@ -1,0 +1,10 @@
+[project]
+protostar-version = "0.10.0"
+lib-path = "lib"
+cairo-path = ["lib", "lib/cairo_base64", "lib/cairo_secp256r1", "lib/cairo_sha256", "lib/cairo_contracts/src"]
+
+[contracts]
+controller = ["src/controller/Controller.cairo"]
+legacy-controller = ["src/controller/LegacyController.cairo"]
+controller-guardian = ["src/controller/Guardian.cairo"]
+mock-starknet-facts-registry = ["src/MockL2StarknetFactsRegistry.cairo"]
